@@ -1,0 +1,601 @@
+  {
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "Hola",
+        "Buenos días",
+        "Buenas tardes"
+      ],
+      "responses": [
+        "¡Hola! ¿Cómo puedo ayudarte hoy?",
+        "¡Buenas! ¿Qué necesitas?"
+      ]
+    },
+    {
+      "tag": "saludo_2",
+      "patterns": [
+        "¿Qué tal?",
+        "¿Cómo estás?",
+        "¿Cómo te va?"
+      ],
+      "responses": [
+        "Bien, ¿en qué puedo ayudarte?",
+        "Todo bien, ¿en qué puedo ayudarte?"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "Adiós",
+        "Hasta luego",
+        "Nos vemos"
+      ],
+      "responses": [
+        "¡Adiós! Espero haberte ayudado.",
+        "Hasta luego, ¡cuídate!"
+      ]
+    },
+    {
+      "tag": "reciclaje",
+      "patterns": [
+        "¿Qué es el reciclaje?",
+        "Explícame el reciclaje",
+        "Cómo reciclar"
+      ],
+      "responses": [
+        "El reciclaje es el proceso de convertir materiales usados y desechados en nuevos productos para prevenir el desperdicio de materiales potencialmente útiles, reducir el consumo de materias primas frescas, y disminuir el uso de energía y la contaminación del aire y del agua."
+      ]
+    },
+    {
+      "tag": "como_reciclar",
+      "patterns": [
+        "¿Cómo puedo empezar a reciclar en casa?",
+        "¿Cómo reciclo en casa?",
+        "Guía de reciclaje en casa"
+      ],
+      "responses": [
+        "Puedes empezar a reciclar en casa separando tus residuos en diferentes contenedores: uno para papel y cartón, otro para plásticos, otro para vidrio, y uno más para residuos orgánicos. Asegúrate de limpiar los envases antes de reciclarlos."
+      ]
+    },
+    {
+      "tag": "importancia_reducir_plastico",
+      "patterns": [
+        "¿Por qué es importante reducir el uso de plástico?",
+        "Razones para reducir plástico",
+        "Importancia de reducir plástico"
+      ],
+      "responses": [
+        "Reducir el uso de plástico es crucial porque la mayoría de los plásticos no son biodegradables y pueden tardar cientos de años en descomponerse. Además, el plástico contamina nuestros océanos y representa una amenaza para la vida marina."
+      ]
+    },
+    {
+      "tag": "compostaje",
+      "patterns": [
+        "¿Qué es el compostaje?",
+        "Explícame el compostaje",
+        "Cómo funciona el compostaje"
+      ],
+      "responses": [
+        "El compostaje es el proceso de descomposición de materia orgánica, como restos de comida y hojas, para crear compost, un fertilizante natural rico en nutrientes que puede ser utilizado en jardines y campos agrícolas."
+      ]
+    },
+    {
+      "tag": "saludo",
+      "patterns": [
+        "Hola",
+        "Buenos días",
+        "Buenas tardes"
+      ],
+      "responses": [
+        "¡Hola! ¿Cómo puedo ayudarte hoy?",
+        "¡Buenas! ¿Qué necesitas?"
+      ]
+    },
+    {
+      "tag": "saludo_2",
+      "patterns": [
+        "¿Qué tal?",
+        "¿Cómo estás?",
+        "¿Cómo te va?"
+      ],
+      "responses": [
+        "Bien, ¿en qué puedo ayudarte?",
+        "Todo bien, ¿en qué puedo ayudarte?"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "Adiós",
+        "Hasta luego",
+        "Nos vemos"
+      ],
+      "responses": [
+        "¡Adiós! Espero haberte ayudado.",
+        "Hasta luego, ¡cuídate!"
+      ]
+    },
+    {
+      "tag": "reciclaje",
+      "patterns": [
+        "¿Qué es el reciclaje?",
+        "Explícame el reciclaje",
+        "Cómo reciclar"
+      ],
+      "responses": [
+        "El reciclaje es el proceso de convertir materiales usados y desechados en nuevos productos para prevenir el desperdicio de materiales potencialmente útiles, reducir el consumo de materias primas frescas, y disminuir el uso de energía y la contaminación del aire y del agua."
+      ]
+    },
+    {
+      "tag": "como_reciclar",
+      "patterns": [
+        "¿Cómo puedo empezar a reciclar en casa?",
+        "¿Cómo reciclo en casa?",
+        "Guía de reciclaje en casa"
+      ],
+      "responses": [
+        "Puedes empezar a reciclar en casa separando tus residuos en diferentes contenedores: uno para papel y cartón, otro para plásticos, otro para vidrio, y uno más para residuos orgánicos. Asegúrate de limpiar los envases antes de reciclarlos."
+      ]
+    },
+    {
+      "tag": "importancia_reducir_plastico",
+      "patterns": [
+        "¿Por qué es importante reducir el uso de plástico?",
+        "Razones para reducir plástico",
+        "Importancia de reducir plástico"
+      ],
+      "responses": [
+        "Reducir el uso de plástico es crucial porque la mayoría de los plásticos no son biodegradables y pueden tardar cientos de años en descomponerse. Además, el plástico contamina nuestros océanos y representa una amenaza para la vida marina."
+      ]
+    },
+    {
+      "tag": "compostaje",
+      "patterns": [
+        "¿Qué es el compostaje?",
+        "Explícame el compostaje",
+        "Cómo funciona el compostaje"
+      ],
+      "responses": [
+        "El compostaje es el proceso de descomposición de materia orgánica, como restos de comida y hojas, para crear compost, un fertilizante natural rico en nutrientes que puede ser utilizado en jardines y campos agrícolas."
+      ]
+    },
+    {
+      "tag": "huella_de_carbono",
+      "patterns": [
+        "¿Cómo puedo reducir mi huella de carbono?",
+        "Reducir huella de carbono",
+        "Consejos para reducir huella de carbono"
+      ],
+      "responses": [
+        "Puedes reducir tu huella de carbono utilizando transporte público, caminando o en bicicleta en lugar de usar el coche, consumiendo menos carne y más alimentos de origen vegetal, y utilizando energía renovable siempre que sea posible."
+      ]
+    },
+    {
+      "tag": "economia_circular",
+      "patterns": [
+        "¿Qué es la economía circular?",
+        "Explícame la economía circular",
+        "Concepto de economía circular"
+      ],
+      "responses": [
+        "La economía circular es un sistema económico que busca eliminar el desperdicio y el uso continuo de recursos. Implica compartir, reutilizar, reparar, renovar y reciclar materiales y productos existentes durante el mayor tiempo posible."
+      ]
+    },
+    {
+      "tag": "iniciativas_ecologicas",
+      "patterns": [
+        "¿Cómo puedo involucrarme en iniciativas ecológicas en mi comunidad?",
+        "Participar en iniciativas ecológicas",
+        "Iniciativas ecológicas en mi comunidad"
+      ],
+      "responses": [
+        "La Investigación de Operaciones juega un papel importante en la gestión ambiental y la sostenibilidad. Ayuda a optimizar procesos para reducir el consumo de recursos naturales, minimizar la generación de residuos y disminuir las emisiones contaminantes. Algunas aplicaciones incluyen la optimización de rutas de transporte para reducir las emisiones de CO2, la gestión eficiente de la cadena de suministro para minimizar el desperdicio y la programación de la producción para maximizar el uso de energías renovables."
+      ]
+    },
+    {
+      "tag": "reciclabilidad",
+      "patterns": [
+        "¿Qué objetos son reciclables?",
+        "¿Qué puedo reciclar?",
+        "Lista de objetos reciclables"
+      ],
+      "responses": [
+        "Algunos objetos reciclables comunes incluyen papel, cartón, plástico, vidrio, metal y ciertos tipos de materia orgánica. Es importante verificar las regulaciones locales de reciclaje para conocer los detalles específicos."
+      ]
+    },
+    {
+      "tag": "investigacion_operaciones_ecologia",
+      "patterns": [
+        "¿Cómo se relaciona la Investigación de Operaciones con la ecología?",
+        "Impacto ambiental de la Investigación de Operaciones",
+        "Investigación de Operaciones y sostenibilidad"
+      ],
+      "responses": [
+        "La Investigación de Operaciones desempeña un papel crucial en la promoción de la sostenibilidad y la protección del medio ambiente. Ayuda a optimizar procesos y sistemas para reducir el consumo de recursos naturales, minimizar la generación de residuos y disminuir las emisiones contaminantes. Algunas aplicaciones específicas incluyen la optimización de rutas de transporte para reducir las emisiones de CO2, la gestión eficiente de la cadena de suministro para minimizar el desperdicio de recursos y la programación de la producción para maximizar el uso de energías renovables. En resumen, la Investigación de Operaciones contribuye significativamente a la ecología y al cuidado del planeta al mejorar la eficiencia y reducir el impacto ambiental de las operaciones comerciales."
+      ]
+    },
+    {
+      "tag": "marketing_ecologia",
+      "patterns": [
+        "¿Cómo afecta el marketing a la ecología?",
+        "Impacto del marketing en el medio ambiente",
+        "Marketing y sostenibilidad",
+        "Relación entre marketing y cuidado del planeta"
+      ],
+      "responses": [
+        "El marketing puede tener un impacto significativo en la ecología y el cuidado del planeta, tanto de manera positiva como negativa. En su aspecto negativo, el marketing puede fomentar el consumismo excesivo, lo que lleva a una mayor producción de residuos y el agotamiento de recursos naturales. Además, las campañas publicitarias pueden promover productos no sostenibles y prácticas que dañan el medio ambiente.",
+        "Por otro lado, el marketing sostenible puede ser una fuerza positiva para el cambio ambiental. Las empresas pueden usar estrategias de marketing para educar a los consumidores sobre prácticas sostenibles y promover productos ecológicos. El marketing verde se enfoca en destacar las características ecológicas de los productos y en alentar a los consumidores a tomar decisiones más conscientes con el medio ambiente.",
+        "En resumen, el marketing tiene el poder de influir en los comportamientos de los consumidores y, si se utiliza de manera responsable, puede ser una herramienta valiosa para promover la sostenibilidad y el cuidado del planeta."
+      ]
+    },
+    {
+      "tag": "energias_renovables",
+      "patterns": [
+        "¿Qué son las energías renovables?",
+        "Tipos de energías renovables",
+        "Beneficios de las energías renovables"
+      ],
+      "responses": [
+        "Las energías renovables son fuentes de energía que se obtienen de recursos naturales inagotables o que pueden regenerarse a corto plazo, como la energía solar, eólica, hidroeléctrica, geotérmica y biomasa. Estas energías son más sostenibles y tienen un menor impacto ambiental en comparación con los combustibles fósiles."
+      ]
+    },
+    {
+      "tag": "biodiversidad",
+      "patterns": [
+        "¿Qué es la biodiversidad?",
+        "Importancia de la biodiversidad",
+        "Amenazas a la biodiversidad"
+      ],
+      "responses": [
+        "La biodiversidad se refiere a la variedad de vida en la Tierra, incluyendo la diversidad de especies, genes y ecosistemas. Es esencial para el equilibrio y la salud de los ecosistemas, proporcionando servicios como la polinización, el control de plagas y la purificación del agua. La pérdida de biodiversidad, causada por actividades humanas como la deforestación y la contaminación, representa una grave amenaza para el planeta."
+      ]
+    },
+    {
+      "tag": "deforestacion",
+      "patterns": [
+        "¿Qué es la deforestación?",
+        "Causas de la deforestación",
+        "Consecuencias de la deforestación"
+      ],
+      "responses": [
+        "La deforestación es la eliminación de bosques y selvas para dar lugar a otras actividades como la agricultura, la ganadería y la urbanización. Esto provoca la pérdida de hábitats, la disminución de la biodiversidad y el aumento de las emisiones de CO2, contribuyendo al cambio climático."
+      ]
+    },
+    {
+      "tag": "cambio_climatico",
+      "patterns": [
+        "¿Qué es el cambio climático?",
+        "Causas del cambio climático",
+        "Consecuencias del cambio climático"
+      ],
+      "responses": [
+        "El cambio climático se refiere a las alteraciones significativas y duraderas en los patrones climáticos globales. Es causado principalmente por las actividades humanas, como la quema de combustibles fósiles y la deforestación, que aumentan las concentraciones de gases de efecto invernadero en la atmósfera. Sus consecuencias incluyen el aumento de las temperaturas globales, el derretimiento de los glaciares, el aumento del nivel del mar y fenómenos meteorológicos extremos."
+      ]
+    },
+    {
+      "tag": "economia_azul",
+      "patterns": [
+        "¿Qué es la economía azul?",
+        "Importancia de la economía azul",
+        "Beneficios de la economía azul"
+      ],
+      "responses": [
+        "La economía azul se centra en el uso sostenible de los océanos y sus recursos para el crecimiento económico, la mejora de los medios de vida y el empleo, al tiempo que preserva la salud del ecosistema oceánico. Incluye actividades como la pesca sostenible, la acuicultura, el turismo marítimo y la energía marina renovable."
+      ]
+    },
+    {
+      "tag": "residuos_plasticos",
+      "patterns": [
+        "Problemas de los residuos plásticos",
+        "Cómo reducir los residuos plásticos",
+        "Impacto de los plásticos en el medio ambiente"
+      ],
+      "responses": [
+        "Los residuos plásticos representan un grave problema ambiental debido a su durabilidad y persistencia en el medio ambiente. Pueden tardar cientos de años en descomponerse, contaminando suelos y océanos y afectando a la vida silvestre. Para reducir los residuos plásticos, es importante minimizar su uso, promover el reciclaje y optar por alternativas más sostenibles como el vidrio o el metal."
+      ]
+    },
+    {
+      "tag": "sostenibilidad_urbana",
+      "patterns": [
+        "¿Qué es la sostenibilidad urbana?",
+        "Estrategias para la sostenibilidad urbana",
+        "Ciudades sostenibles"
+      ],
+      "responses": [
+        "La sostenibilidad urbana se refiere al desarrollo de ciudades de manera que sean ambientalmente responsables, socialmente equitativas y económicamente viables. Esto incluye la planificación urbana eficiente, el transporte público sostenible, la gestión adecuada de residuos, la eficiencia energética en edificios y la promoción de espacios verdes."
+      ]
+    },
+    {
+      "tag": "turismo_sostenible",
+      "patterns": [
+        "¿Qué es el turismo sostenible?",
+        "Beneficios del turismo sostenible",
+        "Cómo practicar turismo sostenible"
+      ],
+      "responses": [
+        "El turismo sostenible busca minimizar el impacto ambiental y cultural del turismo, al tiempo que promueve la conservación de los recursos naturales y el bienestar de las comunidades locales. Los turistas pueden practicar el turismo sostenible eligiendo destinos ecológicos, respetando las culturas locales, reduciendo su huella de carbono y apoyando las economías locales."
+      ]
+    },
+    {
+      "tag": "educacion_ambiental",
+      "patterns": [
+        "¿Qué es la educación ambiental?",
+        "Importancia de la educación ambiental",
+        "Cómo fomentar la educación ambiental"
+      ],
+      "responses": [
+        "La educación ambiental es el proceso de enseñar a las personas sobre el medio ambiente y cómo pueden contribuir a su conservación y protección. Es crucial para aumentar la conciencia sobre los problemas ambientales y motivar acciones positivas. La educación ambiental puede fomentarse a través de programas escolares, campañas de concienciación, talleres y actividades comunitarias."
+      ]
+    },
+    {
+      "tag": "agricultura_sostenible",
+      "patterns": [
+        "¿Qué es la agricultura sostenible?",
+        "Prácticas de agricultura sostenible",
+        "Beneficios de la agricultura sostenible"
+      ],
+      "responses": [
+        "La agricultura sostenible se refiere a prácticas agrícolas que protegen el medio ambiente, preservan los recursos naturales y son económicamente viables y socialmente equitativas. Incluye técnicas como la rotación de cultivos, la agricultura orgánica, la agroforestería y el uso eficiente del agua. Estos métodos ayudan a mantener la salud del suelo, reducir la dependencia de productos químicos y conservar la biodiversidad."
+      ]
+    },
+    {
+      "tag": "programacion_lineal_simplex",
+      "patterns": [
+        "¿Cómo resolver un problema de programación lineal?",
+        "Método simplex para programación lineal",
+        "Resolver programación lineal con método simplex"
+      ],
+      "responses": [
+        "Para resolver un problema de programación lineal utilizando el método simplex, sigue estos pasos básicos:\n1. Formular el problema en términos de una función objetivo a maximizar o minimizar y las restricciones lineales.\n2. Convertir las desigualdades en igualdades introduciendo variables de holgura.\n3. Crear la tabla inicial del simplex con las variables básicas y no básicas.\n4. Identificar la columna pivote (variable entrante) que tiene el coeficiente más negativo en la fila de la función objetivo.\n5. Determinar la fila pivote (variable saliente) dividiendo los valores de la columna de soluciones entre los valores positivos de la columna pivote y seleccionando el menor cociente positivo.\n6. Realizar las operaciones de pivoteo para actualizar la tabla.\n7. Repetir los pasos 4-6 hasta que no queden coeficientes negativos en la fila de la función objetivo, indicando que se ha alcanzado la solución óptima."
+      ]
+    },
+    {
+      "tag": "huella_de_carbono",
+      "patterns": [
+        "¿Cómo puedo reducir mi huella de carbono?",
+        "Reducir huella de carbono",
+        "Consejos para reducir huella de carbono"
+      ],
+      "responses": [
+        "Puedes reducir tu huella de carbono utilizando transporte público, caminando o en bicicleta en lugar de usar el coche, consumiendo menos carne y más alimentos de origen vegetal, y utilizando energía renovable siempre que sea posible."
+      ]
+    },
+    {
+      "tag": "Clasificar la basura",
+      "patterns": [
+        "¿Por qué es importante separar la basura?",
+        "quiero saber la importancia de separ la basura",
+        "Beneficcios de separ la basura"
+      ],
+      "responses": [
+        "Al separar tus desechos orgánicos e inorgánicos, contribuirás al ahorro de recursos renovables y también de energía, ya que, al separar los materiales reciclables pueden ser reutilizados en la cadena de producción, logrando así reducir la extracción de recursos naturales del ecosistema."
+      ]
+    },
+    {
+      "tag": "Cantidad de basura al año",
+      "patterns": [
+        "¿Cuánta basura se genera al año en México?",
+        "Cantidad de basura que se genera al año en México",
+        "cuanta basura produce una persona al día"
+      ],
+      "responses": [
+        "En México una persona produce casi un kilo de residuos sólidos al día. En México se generan poco más de 42 millones de toneladas de residuos sólidos al año."
+      ]
+    },
+    {
+      "tag": "Residuos Contenedor amarillo",
+      "patterns": [
+        "¿Qué residuos van en el contendor amarillo?",
+        "Residuos que puedo echar al contendor amarillo",
+        "Quiero saber los residuos que deben de ir en el contenedor amarillo"
+      ],
+      "responses": [
+        "Botellas de plástico de detergente, champú, gel, etc. Tapas y tapones de plástico. Bolsas de plástico (excepto las bolsas de basura).Tarrinas y tapas de yogurt"
+      ]
+    },
+    {
+      "tag": "Residuos Contenedor azul",
+      "patterns": [
+        "¿Qué residuos van en el contendor azul?",
+        "Residuos que puedo echar al contendor azul",
+        "Quiero saber los residuos que deben de ir en el contenedor azul"
+      ],
+      "responses": [
+        "Revistas,Periódicos viejos, Cajas de cereales, Cajas de zapatos, Papel de envolver, Cuadernos"
+      ]
+    },
+    {
+      "tag": "Residuos Contenedor verde",
+      "patterns": [
+        "¿Qué residuos van en el contendor verde?",
+        "Residuos que puedo echar al contendor verde",
+        "Quiero saber los residuos que deben de ir en el contenedor verde"
+      ],
+      "responses": [
+        "Botellas de vidrio (vino, cava, etc.), Frascos de vidrio (como perfumes o colonias), Tarros de alimentos (mermeladas, conservas, etc.)"
+      ]
+    },
+    {
+      "tag": "economia_circular",
+      "patterns": [
+        "¿Qué es la economía circular?",
+        "Explícame la economía circular",
+        "Concepto de economía circular"
+      ],
+      "responses": [
+        "La economía circular es un sistema económico que busca eliminar el desperdicio y el uso continuo de recursos. Implica compartir, reutilizar, reparar, renovar y reciclar materiales y productos existentes durante el mayor tiempo posible."
+      ]
+    },
+    {
+      "tag": "iniciativas_ecologicas",
+      "patterns": [
+        "¿Cómo puedo involucrarme en iniciativas ecológicas en mi comunidad?",
+        "Participar en iniciativas ecológicas",
+        "Iniciativas ecológicas en mi comunidad"
+      ],
+      "responses": [
+        "La Investigación de Operaciones juega un papel importante en la gestión ambiental y la sostenibilidad. Ayuda a optimizar procesos para reducir el consumo de recursos naturales, minimizar la generación de residuos y disminuir las emisiones contaminantes. Algunas aplicaciones incluyen la optimización de rutas de transporte para reducir las emisiones de CO2, la gestión eficiente de la cadena de suministro para minimizar el desperdicio y la programación de la producción para maximizar el uso de energías renovables."
+      ]
+    },
+    {
+      "tag": "reciclabilidad",
+      "patterns": [
+        "¿Qué objetos son reciclables?",
+        "¿Qué puedo reciclar?",
+        "Lista de objetos reciclables"
+      ],
+      "responses": [
+        "Algunos objetos reciclables comunes incluyen papel, cartón, plástico, vidrio, metal y ciertos tipos de materia orgánica. Es importante verificar las regulaciones locales de reciclaje para conocer los detalles específicos."
+      ]
+    },
+    {
+      "tag": "investigacion_operaciones_ecologia",
+      "patterns": [
+        "¿Cómo se relaciona la Investigación de Operaciones con la ecología?",
+        "Impacto ambiental de la Investigación de Operaciones",
+        "Investigación de Operaciones y sostenibilidad"
+      ],
+      "responses": [
+        "La Investigación de Operaciones desempeña un papel crucial en la promoción de la sostenibilidad y la protección del medio ambiente. Ayuda a optimizar procesos y sistemas para reducir el consumo de recursos naturales, minimizar la generación de residuos y disminuir las emisiones contaminantes. Algunas aplicaciones específicas incluyen la optimización de rutas de transporte para reducir las emisiones de CO2, la gestión eficiente de la cadena de suministro para minimizar el desperdicio de recursos y la programación de la producción para maximizar el uso de energías renovables. En resumen, la Investigación de Operaciones contribuye significativamente a la ecología y al cuidado del planeta al mejorar la eficiencia y reducir el impacto ambiental de las operaciones comerciales."
+      ]
+    },
+    {
+      "tag": "marketing_ecologia",
+      "patterns": [
+        "¿Cómo afecta el marketing a la ecología?",
+        "Impacto del marketing en el medio ambiente",
+        "Marketing y sostenibilidad",
+        "Relación entre marketing y cuidado del planeta"
+      ],
+      "responses": [
+        "El marketing puede tener un impacto significativo en la ecología y el cuidado del planeta, tanto de manera positiva como negativa. En su aspecto negativo, el marketing puede fomentar el consumismo excesivo, lo que lleva a una mayor producción de residuos y el agotamiento de recursos naturales. Además, las campañas publicitarias pueden promover productos no sostenibles y prácticas que dañan el medio ambiente.",
+        "Por otro lado, el marketing sostenible puede ser una fuerza positiva para el cambio ambiental. Las empresas pueden usar estrategias de marketing para educar a los consumidores sobre prácticas sostenibles y promover productos ecológicos. El marketing verde se enfoca en destacar las características ecológicas de los productos y en alentar a los consumidores a tomar decisiones más conscientes con el medio ambiente.",
+        "En resumen, el marketing tiene el poder de influir en los comportamientos de los consumidores y, si se utiliza de manera responsable, puede ser una herramienta valiosa para promover la sostenibilidad y el cuidado del planeta."
+      ]
+    },
+    {
+      "tag": "energias_renovables",
+      "patterns": [
+        "¿Qué son las energías renovables?",
+        "Tipos de energías renovables",
+        "Beneficios de las energías renovables"
+      ],
+      "responses": [
+        "Las energías renovables son fuentes de energía que se obtienen de recursos naturales inagotables o que pueden regenerarse a corto plazo, como la energía solar, eólica, hidroeléctrica, geotérmica y biomasa. Estas energías son más sostenibles y tienen un menor impacto ambiental en comparación con los combustibles fósiles."
+      ]
+    },
+    {
+      "tag": "biodiversidad",
+      "patterns": [
+        "¿Qué es la biodiversidad?",
+        "Importancia de la biodiversidad",
+        "Amenazas a la biodiversidad"
+      ],
+      "responses": [
+        "La biodiversidad se refiere a la variedad de vida en la Tierra, incluyendo la diversidad de especies, genes y ecosistemas. Es esencial para el equilibrio y la salud de los ecosistemas, proporcionando servicios como la polinización, el control de plagas y la purificación del agua. La pérdida de biodiversidad, causada por actividades humanas como la deforestación y la contaminación, representa una grave amenaza para el planeta."
+      ]
+    },
+    {
+      "tag": "deforestacion",
+      "patterns": [
+        "¿Qué es la deforestación?",
+        "Causas de la deforestación",
+        "Consecuencias de la deforestación"
+      ],
+      "responses": [
+        "La deforestación es la eliminación de bosques y selvas para dar lugar a otras actividades como la agricultura, la ganadería y la urbanización. Esto provoca la pérdida de hábitats, la disminución de la biodiversidad y el aumento de las emisiones de CO2, contribuyendo al cambio climático."
+      ]
+    },
+    {
+      "tag": "cambio_climatico",
+      "patterns": [
+        "¿Qué es el cambio climático?",
+        "Causas del cambio climático",
+        "Consecuencias del cambio climático"
+      ],
+      "responses": [
+        "El cambio climático se refiere a las alteraciones significativas y duraderas en los patrones climáticos globales. Es causado principalmente por las actividades humanas, como la quema de combustibles fósiles y la deforestación, que aumentan las concentraciones de gases de efecto invernadero en la atmósfera. Sus consecuencias incluyen el aumento de las temperaturas globales, el derretimiento de los glaciares, el aumento del nivel del mar y fenómenos meteorológicos extremos."
+      ]
+    },
+    {
+      "tag": "economia_azul",
+      "patterns": [
+        "¿Qué es la economía azul?",
+        "Importancia de la economía azul",
+        "Beneficios de la economía azul"
+      ],
+      "responses": [
+        "La economía azul se centra en el uso sostenible de los océanos y sus recursos para el crecimiento económico, la mejora de los medios de vida y el empleo, al tiempo que preserva la salud del ecosistema oceánico. Incluye actividades como la pesca sostenible, la acuicultura, el turismo marítimo y la energía marina renovable."
+      ]
+    },
+    {
+      "tag": "residuos_plasticos",
+      "patterns": [
+        "Problemas de los residuos plásticos",
+        "Cómo reducir los residuos plásticos",
+        "Impacto de los plásticos en el medio ambiente"
+      ],
+      "responses": [
+        "Los residuos plásticos representan un grave problema ambiental debido a su durabilidad y persistencia en el medio ambiente. Pueden tardar cientos de años en descomponerse, contaminando suelos y océanos y afectando a la vida silvestre. Para reducir los residuos plásticos, es importante minimizar su uso, promover el reciclaje y optar por alternativas más sostenibles como el vidrio o el metal."
+      ]
+    },
+    {
+      "tag": "sostenibilidad_urbana",
+      "patterns": [
+        "¿Qué es la sostenibilidad urbana?",
+        "Estrategias para la sostenibilidad urbana",
+        "Ciudades sostenibles"
+      ],
+      "responses": [
+        "La sostenibilidad urbana se refiere al desarrollo de ciudades de manera que sean ambientalmente responsables, socialmente equitativas y económicamente viables. Esto incluye la planificación urbana eficiente, el transporte público sostenible, la gestión adecuada de residuos, la eficiencia energética en edificios y la promoción de espacios verdes."
+      ]
+    },
+    {
+      "tag": "turismo_sostenible",
+      "patterns": [
+        "¿Qué es el turismo sostenible?",
+        "Beneficios del turismo sostenible",
+        "Cómo practicar turismo sostenible"
+      ],
+      "responses": [
+        "El turismo sostenible busca minimizar el impacto ambiental y cultural del turismo, al tiempo que promueve la conservación de los recursos naturales y el bienestar de las comunidades locales. Los turistas pueden practicar el turismo sostenible eligiendo destinos ecológicos, respetando las culturas locales, reduciendo su huella de carbono y apoyando las economías locales."
+      ]
+    },
+    {
+      "tag": "educacion_ambiental",
+      "patterns": [
+        "¿Qué es la educación ambiental?",
+        "Importancia de la educación ambiental",
+        "Cómo fomentar la educación ambiental"
+      ],
+      "responses": [
+        "La educación ambiental es el proceso de enseñar a las personas sobre el medio ambiente y cómo pueden contribuir a su conservación y protección. Es crucial para aumentar la conciencia sobre los problemas ambientales y motivar acciones positivas. La educación ambiental puede fomentarse a través de programas escolares, campañas de concienciación, talleres y actividades comunitarias."
+      ]
+    },
+    {
+      "tag": "agricultura_sostenible",
+      "patterns": [
+        "¿Qué es la agricultura sostenible?",
+        "Prácticas de agricultura sostenible",
+        "Beneficios de la agricultura sostenible"
+      ],
+      "responses": [
+        "La agricultura sostenible se refiere a prácticas agrícolas que protegen el medio ambiente, preservan los recursos naturales y son económicamente viables y socialmente equitativas. Incluye técnicas como la rotación de cultivos, la agricultura orgánica, la agroforestería y el uso eficiente del agua. Estos métodos ayudan a mantener la salud del suelo, reducir la dependencia de productos químicos y conservar la biodiversidad."
+      ]
+    },
+    {
+      "tag": "EcoApp",
+      "patterns": [
+        "¿Puedes recomendarme una app apra recilcar?",
+        "¿Existe una app apra reciclar?",
+        "¿Qué es EcoApp"
+      ], 
+      "responses": [
+        "Claro te recomiendo nuestra app EcoApp con ella podrás reciclar de manera eficiente o detectar basura reciclable y no reciclable puedes descargala aqui: https://drive.google.com/drive/folders/1oubfZg-JPBxb8OH3R7oKZJKZ2iO40GJz",
+        "Si, la EcoApp descargala aquí: https://drive.google.com/drive/folders/1oubfZg-JPBxb8OH3R7oKZJKZ2iO40GJz", 
+        "Es una app que te ayuda a rececliar de manera erficiente creada por Ciencia2.7182, descargala aqui:https://drive.google.com/drive/folders/1oubfZg-JPBxb8OH3R7oKZJKZ2iO40GJz"
+      ]
+    }
+  ]
+}
